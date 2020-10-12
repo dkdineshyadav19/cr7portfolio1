@@ -105,6 +105,25 @@
          #imgg:hover{
             transform: scale(1.3);
         }
+                #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
     </style>
     </head>
     <body>
@@ -136,6 +155,8 @@
       <a href="stats.html">All-Time-Stats</a>
       <a href="achivement.html">Achivements</a>
       <a href="life.html">Lifestyle</a>
+      <a href="record.html">Record</a>
+           <a href="business.html">Business</a>
        <a href="#cont" style="float: right;background-color: deepskyblue">Contact</a>
 </div>
        <div style="background-color: red;color: yellow"><center><h1 >Manchester United</h1></center> </div>
@@ -164,17 +185,34 @@
 
    <div  style="height:100px;font-size:16px;background-color: black" id="cont">
             <center><ul style="display: block;list-style-type: disc">
-                 <li style="display: inline-block;
-  margin: 0 10px;"><a href="#"><img src="images/top2.png" height="100px" width="100px" id="imgg"></a></li>
+                
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.instagram.com/dkdineshyadav19"><img src="images/insta.png" height="100px" width="100px" id="imgg"></a></li>
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.facebook.com/dkdineshyadav19"><img src="images/fb.png" height="100px" width="100px" id="imgg"></a></li>
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.twitter.com/dkdineshyadav19"><img src="images/twitter.png" height="100px" width="100px" id="imgg"></a></li>
-                <li style="display: inline-block;
-  margin: 0 10px;"><a href="#"><img src="images/top2.png" height="100px" width="100px" id="imgg"></a></li>
+               <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
              </ul></center> 
              </div>  
     </body>
+    <script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>

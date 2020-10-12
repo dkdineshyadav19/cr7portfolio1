@@ -9,8 +9,8 @@
         </title>
     <style>
          .parlex{
-            background-image: url("images/nike.jpg");
-            min-height: 800px;
+            background-image: url("images/toni.jpg");
+            min-height: 400px;
             
             background-attachment: fixed;
             background-position: center;
@@ -77,10 +77,108 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+        #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+        .container {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 33.33%;
+    text-align: center;
+}
+
+.col img {
+    max-width: 100%;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container::after {
+    content: "\f04b";
+    border: 20px solid white;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 0;
+    height: 0;
+    z-index: 10;
+}
+        button {
+    background-color: #fff;
+    border: 0;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+.green {
+    color: #00d69f;
+}
+
+.red {
+    color: #e75050;
+}
+
+.orange {
+    color: #d27752;
+}
+
+@media screen and (max-width: 768px) {
+    nav button {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
+        
+* {
+    box-sizing: border-box;
+}
+
+
       
     </style>
     </head>
-    <body>
+    <body style="background-color: #000;color: white; margin: 0;">
   <div class="navbar">
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -109,23 +207,192 @@
       <a href="stats.html">All-Time-Stats</a>
       <a href="achivement.html">Achivements</a>
       <a href="life.html">Lifestyle</a>
+      <a href="record.html">Record</a>
+           <a href="business.html">Business</a>
        <a href="#cont" style="float: right;background-color: deepskyblue">Contact</a>
 </div>
-    <div class="parlex"></div>
+          <center><h1 style="color: white">BEst Goals OF Cr7</h1></center> 
+        <header  style="background-image: url(images/celebrati.jpg);background-size: cover;background-position:top right;height: 300px;margin-bottom: 2rem;"></header>
+        <center><h2 style="color: white">Watch now button link to YOUTUBE</h2></center> 
+    <main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/1.jpg"
+                                    alt="img-1"
+                                    class="play"
+                                />
+                            </div>
+                            <h2> backheel</h2>
+                            <p class="green">
+                                Rayo Vallecano
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=6FGEO2Z0-ZI&feature=emb_logo" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/2.jpg"
+                                    alt="img-2"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>Revenge Goal</h2>
+                            <p class="red">
+                                Against Barcelona
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=_Auikw2Esws" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/toni.jpg"
+                                    alt="img-3"
+                                    class="play"
+                                />
+                            </div>
+                            <h2> Free kick </h2>
+                            <p class="orange">
+                                vs Atletico
+                            </p>
+                           <a href="https://www.youtube.com/watch?v=ga-WZiPpxPQ" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                    </div>
+                </div>
+    </main>
+        <main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/g.jpg"
+                                    alt="img-1"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>screamer</h2>
+                            <p class="green">
+                                Levante 
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=6iOlcoXNVos" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/portugal'.jpg"
+                                    alt="img-2"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>Spain </h2>
+                            <p class="red">
+                                free kick
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=4rp2aLQl7vg" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/mu1.jpg"
+                                    alt="img-3"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>Swervy left foot</h2>
+                            <p class="orange">
+                                 vs Pompey
+                            </p>
+                           <a href="https://www.youtube.com/watch?v=cm33W92nKoY&feature=emb_logo" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                    </div>
+                </div>
+    </main>
+        
+        <main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/header1.jpg"
+                                    alt="img-1"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>Header </h2>
+                            <p class="green">
+                                vs Man United
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=xE8TZXblHP8&feature=emb_logo" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/mu.jpg"
+                                    alt="img-2"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>long ranger</h2>
+                            <p class="red">
+                                Porto 
+                            </p>
+                             <a href="https://www.youtube.com/watch?v=-NpR6jO2pi0&feature=emb_logo" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                        <div class="col">
+                            <div class="img-container">
+                                <img
+                                    src="images/mnc.jpg"
+                                    alt="img-3"
+                                    class="play"
+                                />
+                            </div>
+                            <h2>free kick</h2>
+                            <p class="orange">
+                                Portsmouth 
+                            </p>
+                           <a href="https://www.youtube.com/watch?v=t0dgGSFWhno" target="_blank"> <button>Watch Now</button></a>
+                        </div>
+                    </div>
+                </div>
+    </main>
+        <div class="parlex"></div>
+        
+        <header  style="background-image: url(images/celebration.jpg);background-size: cover;background-position:top right;height: 300px;margin-bottom: 2rem;"></header>
 
     <div  style="height:100px;font-size:16px;background-color: black" id="cont">
             <center><ul style="display: block;list-style-type: disc">
-                 <li style="display: inline-block;
-  margin: 0 10px;"><a href="#"><img src="images/top2.png" height="100px" width="100px" id="imgg"></a></li>
+                 
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.instagram.com/dkdineshyadav19"><img src="images/insta.png" height="100px" width="100px" id="imgg"></a></li>
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.facebook.com/dkdineshyadav19"><img src="images/fb.png" height="100px" width="100px" id="imgg"></a></li>
                  <li style="display: inline-block;
   margin: 0 10px;"><a href="https://www.twitter.com/dkdineshyadav19"><img src="images/twitter.png" height="100px" width="100px" id="imgg"></a></li>
-                <li style="display: inline-block;
-  margin: 0 10px;"><a href="#"><img src="images/top2.png" height="100px" width="100px" id="imgg"></a></li>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
              </ul></center> 
              </div>
     </body>
+    <script>
+
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </html>
