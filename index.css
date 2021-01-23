@@ -1,27 +1,19 @@
 ﻿
-         .parlex{
-            background-image: url("images/HOME1.png");
-            min-height: 900px;
-            
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+
         .parlex1{
             background-image: url("images/portugal'.jpg");
             min-height: 700px;
-           
+
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
+
          .parlex3{
             background-image: url("images/golden.jpg");
             min-height: 700px;
-            
+
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -47,7 +39,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -120,7 +112,7 @@
 
 .footer{
     color: white;
-  
+
   bottom: 0px;
   width: 100%;
   background: #111;
@@ -270,90 +262,9 @@
 
 
 *{
-  
+
   color: #d9d9d9;
 
 }
 
-.container
-{
-	width: 1200px;
-	height: 400px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-.container .box
-{
-	position: relative;
-	width: 280px;
-	height: 400px;
-	background: #fff;
-	transition: 0.5s;
-	overflow: hidden;
-}
-.container .box img
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-.container .box:before
-{
-	content: '';
-	position: absolute;
-	top: -100%;
-	left: 0;
-	width: 50%;
-	height: 100%;
-	background-color: darkgray;
-	z-index: 1;
-	transition: 0.5s;
-}
-.container .box:after
-{
-	content: '';
-	position: absolute;
-	bottom: -100%;
-	right: 0;
-	width: 50%;
-	height: 100%;
-	background: black;
-	z-index: 1;
-	transition: 0.5s;
-}
-.container:hover .box:before
-{
-	top: 0;
-    
-}
-.container:hover .box:after
-{
-	bottom: 0;
-	transition-delay: 0.5s;
-}
-.container .box:hover:before
-{
-	top: -100%;
-}
-.container .box:hover:after
-{
-	bottom: -100%;
-}
-.meme{
-           animation: mmove 5s infinite; 
-             width: 100px;
-            height: 100px;
-            
-           
-            }
-        @keyframes mmove {
-            0%   {background-color:#f39;margin-left: 0px;  }
-            25%  {background-color:yellow;margin-left: 200px; }
-            50% {background-color:aqua; margin-left: 500px; }
-            75% {background-color:#f39; margin-left: 1000px; }
-            100% {background-color:yellow; margin-left: 1400px;  }
-                }
+
